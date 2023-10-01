@@ -89,6 +89,14 @@ body {
     width:100%;
     border-radius: 8px 8px 0px 0px;
 }
+#transition {
+    margin:50px auto;
+    font-weight: 300px;
+    text-align: center;
+    width:70%;
+
+    
+}
 .explore__menu__container {
     color:#1d3557;
 }
@@ -360,9 +368,25 @@ body {
         justify-content: space-evenly;
         
       }
+    #transition {
+        background: none;
+        transition-duration: 0.5s;
+        
+    }
+    #transition:hover {
+        background-color: white;
+        width:50%;
+       
+        color:palevioletred;
+        text-align: center;
+        
+        
+    }
+    }
+   
     
     
-}
+
 @media (min-width:1024px) {
     .container {
         max-width:1140px;
